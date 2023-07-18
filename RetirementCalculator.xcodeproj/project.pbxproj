@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD32E1A92A66FAE500F85FCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E1A82A66FAE500F85FCE /* AppDelegate.swift */; };
+		FD32E1AB2A66FAE500F85FCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E1AA2A66FAE500F85FCE /* SceneDelegate.swift */; };
+		FD32E1AD2A66FAE500F85FCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E1AC2A66FAE500F85FCE /* ViewController.swift */; };
+		FD32E1B02A66FAE500F85FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD32E1AE2A66FAE500F85FCE /* Main.storyboard */; };
+		FD32E1B22A66FAE800F85FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD32E1B12A66FAE800F85FCE /* Assets.xcassets */; };
+		FD32E1B52A66FAE800F85FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD32E1B32A66FAE800F85FCE /* LaunchScreen.storyboard */; };
+		FD32E1C02A66FAE800F85FCE /* RetirementCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E1BF2A66FAE800F85FCE /* RetirementCalculatorTests.swift */; };
+		FD32E1CA2A66FAE800F85FCE /* RetirementCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E1C92A66FAE800F85FCE /* RetirementCalculatorUITests.swift */; };
+		FD32E1CC2A66FAE800F85FCE /* RetirementCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32E1CB2A66FAE800F85FCE /* RetirementCalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD32E1BC2A66FAE800F85FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD32E19D2A66FAE500F85FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD32E1A42A66FAE500F85FCE;
+			remoteInfo = RetirementCalculator;
+		};
+		FD32E1C62A66FAE800F85FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD32E19D2A66FAE500F85FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD32E1A42A66FAE500F85FCE;
+			remoteInfo = RetirementCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD32E1A52A66FAE500F85FCE /* RetirementCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetirementCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD32E1A82A66FAE500F85FCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD32E1AA2A66FAE500F85FCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD32E1AC2A66FAE500F85FCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD32E1AF2A66FAE500F85FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD32E1B12A66FAE800F85FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD32E1B42A66FAE800F85FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD32E1B62A66FAE800F85FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD32E1BB2A66FAE800F85FCE /* RetirementCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetirementCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD32E1BF2A66FAE800F85FCE /* RetirementCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementCalculatorTests.swift; sourceTree = "<group>"; };
+		FD32E1C52A66FAE800F85FCE /* RetirementCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetirementCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD32E1C92A66FAE800F85FCE /* RetirementCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementCalculatorUITests.swift; sourceTree = "<group>"; };
+		FD32E1CB2A66FAE800F85FCE /* RetirementCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD32E1A22A66FAE500F85FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD32E1B82A66FAE800F85FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD32E1C22A66FAE800F85FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD32E19C2A66FAE500F85FCE = {
+			isa = PBXGroup;
+			children = (
+				FD32E1A72A66FAE500F85FCE /* RetirementCalculator */,
+				FD32E1BE2A66FAE800F85FCE /* RetirementCalculatorTests */,
+				FD32E1C82A66FAE800F85FCE /* RetirementCalculatorUITests */,
+				FD32E1A62A66FAE500F85FCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD32E1A62A66FAE500F85FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD32E1A52A66FAE500F85FCE /* RetirementCalculator.app */,
+				FD32E1BB2A66FAE800F85FCE /* RetirementCalculatorTests.xctest */,
+				FD32E1C52A66FAE800F85FCE /* RetirementCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD32E1A72A66FAE500F85FCE /* RetirementCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				FD32E1A82A66FAE500F85FCE /* AppDelegate.swift */,
+				FD32E1AA2A66FAE500F85FCE /* SceneDelegate.swift */,
+				FD32E1AC2A66FAE500F85FCE /* ViewController.swift */,
+				FD32E1AE2A66FAE500F85FCE /* Main.storyboard */,
+				FD32E1B12A66FAE800F85FCE /* Assets.xcassets */,
+				FD32E1B32A66FAE800F85FCE /* LaunchScreen.storyboard */,
+				FD32E1B62A66FAE800F85FCE /* Info.plist */,
+			);
+			path = RetirementCalculator;
+			sourceTree = "<group>";
+		};
+		FD32E1BE2A66FAE800F85FCE /* RetirementCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD32E1BF2A66FAE800F85FCE /* RetirementCalculatorTests.swift */,
+			);
+			path = RetirementCalculatorTests;
+			sourceTree = "<group>";
+		};
+		FD32E1C82A66FAE800F85FCE /* RetirementCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD32E1C92A66FAE800F85FCE /* RetirementCalculatorUITests.swift */,
+				FD32E1CB2A66FAE800F85FCE /* RetirementCalculatorUITestsLaunchTests.swift */,
+			);
+			path = RetirementCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD32E1A42A66FAE500F85FCE /* RetirementCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD32E1CF2A66FAE800F85FCE /* Build configuration list for PBXNativeTarget "RetirementCalculator" */;
+			buildPhases = (
+				FD32E1A12A66FAE500F85FCE /* Sources */,
+				FD32E1A22A66FAE500F85FCE /* Frameworks */,
+				FD32E1A32A66FAE500F85FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetirementCalculator;
+			productName = RetirementCalculator;
+			productReference = FD32E1A52A66FAE500F85FCE /* RetirementCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD32E1BA2A66FAE800F85FCE /* RetirementCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD32E1D22A66FAE800F85FCE /* Build configuration list for PBXNativeTarget "RetirementCalculatorTests" */;
+			buildPhases = (
+				FD32E1B72A66FAE800F85FCE /* Sources */,
+				FD32E1B82A66FAE800F85FCE /* Frameworks */,
+				FD32E1B92A66FAE800F85FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD32E1BD2A66FAE800F85FCE /* PBXTargetDependency */,
+			);
+			name = RetirementCalculatorTests;
+			productName = RetirementCalculatorTests;
+			productReference = FD32E1BB2A66FAE800F85FCE /* RetirementCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD32E1C42A66FAE800F85FCE /* RetirementCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD32E1D52A66FAE800F85FCE /* Build configuration list for PBXNativeTarget "RetirementCalculatorUITests" */;
+			buildPhases = (
+				FD32E1C12A66FAE800F85FCE /* Sources */,
+				FD32E1C22A66FAE800F85FCE /* Frameworks */,
+				FD32E1C32A66FAE800F85FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD32E1C72A66FAE800F85FCE /* PBXTargetDependency */,
+			);
+			name = RetirementCalculatorUITests;
+			productName = RetirementCalculatorUITests;
+			productReference = FD32E1C52A66FAE800F85FCE /* RetirementCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD32E19D2A66FAE500F85FCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FD32E1A42A66FAE500F85FCE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FD32E1BA2A66FAE800F85FCE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FD32E1A42A66FAE500F85FCE;
+					};
+					FD32E1C42A66FAE800F85FCE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FD32E1A42A66FAE500F85FCE;
+					};
+				};
+			};
+			buildConfigurationList = FD32E1A02A66FAE500F85FCE /* Build configuration list for PBXProject "RetirementCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD32E19C2A66FAE500F85FCE;
+			productRefGroup = FD32E1A62A66FAE500F85FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD32E1A42A66FAE500F85FCE /* RetirementCalculator */,
+				FD32E1BA2A66FAE800F85FCE /* RetirementCalculatorTests */,
+				FD32E1C42A66FAE800F85FCE /* RetirementCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD32E1A32A66FAE500F85FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD32E1B52A66FAE800F85FCE /* LaunchScreen.storyboard in Resources */,
+				FD32E1B22A66FAE800F85FCE /* Assets.xcassets in Resources */,
+				FD32E1B02A66FAE500F85FCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD32E1B92A66FAE800F85FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD32E1C32A66FAE800F85FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD32E1A12A66FAE500F85FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD32E1AD2A66FAE500F85FCE /* ViewController.swift in Sources */,
+				FD32E1A92A66FAE500F85FCE /* AppDelegate.swift in Sources */,
+				FD32E1AB2A66FAE500F85FCE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD32E1B72A66FAE800F85FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD32E1C02A66FAE800F85FCE /* RetirementCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD32E1C12A66FAE800F85FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD32E1CA2A66FAE800F85FCE /* RetirementCalculatorUITests.swift in Sources */,
+				FD32E1CC2A66FAE800F85FCE /* RetirementCalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD32E1BD2A66FAE800F85FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD32E1A42A66FAE500F85FCE /* RetirementCalculator */;
+			targetProxy = FD32E1BC2A66FAE800F85FCE /* PBXContainerItemProxy */;
+		};
+		FD32E1C72A66FAE800F85FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD32E1A42A66FAE500F85FCE /* RetirementCalculator */;
+			targetProxy = FD32E1C62A66FAE800F85FCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD32E1AE2A66FAE500F85FCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD32E1AF2A66FAE500F85FCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD32E1B32A66FAE800F85FCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD32E1B42A66FAE800F85FCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD32E1CD2A66FAE800F85FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD32E1CE2A66FAE800F85FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD32E1D02A66FAE800F85FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F2485T5AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetirementCalculator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.with.hanh.RetirementCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD32E1D12A66FAE800F85FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F2485T5AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetirementCalculator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.with.hanh.RetirementCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD32E1D32A66FAE800F85FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F2485T5AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.with.hanh.RetirementCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetirementCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetirementCalculator";
+			};
+			name = Debug;
+		};
+		FD32E1D42A66FAE800F85FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F2485T5AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.with.hanh.RetirementCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetirementCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetirementCalculator";
+			};
+			name = Release;
+		};
+		FD32E1D62A66FAE800F85FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F2485T5AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.with.hanh.RetirementCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetirementCalculator;
+			};
+			name = Debug;
+		};
+		FD32E1D72A66FAE800F85FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F2485T5AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.with.hanh.RetirementCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetirementCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD32E1A02A66FAE500F85FCE /* Build configuration list for PBXProject "RetirementCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD32E1CD2A66FAE800F85FCE /* Debug */,
+				FD32E1CE2A66FAE800F85FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD32E1CF2A66FAE800F85FCE /* Build configuration list for PBXNativeTarget "RetirementCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD32E1D02A66FAE800F85FCE /* Debug */,
+				FD32E1D12A66FAE800F85FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD32E1D22A66FAE800F85FCE /* Build configuration list for PBXNativeTarget "RetirementCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD32E1D32A66FAE800F85FCE /* Debug */,
+				FD32E1D42A66FAE800F85FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD32E1D52A66FAE800F85FCE /* Build configuration list for PBXNativeTarget "RetirementCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD32E1D62A66FAE800F85FCE /* Debug */,
+				FD32E1D72A66FAE800F85FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD32E19D2A66FAE500F85FCE /* Project object */;
+}
