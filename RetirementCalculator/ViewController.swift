@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     
     
     override func viewDidAppear(_ animated: Bool) {
+        print("how are you")
         if Crashes.hasCrashedInLastSession {
             let alertController = UIAlertController(title: "Error occurred", message: "An error has occured", preferredStyle: .alert)
             let action = UIAlertAction(title: "ok", style: .default)
@@ -43,8 +44,31 @@ class ViewController: UIViewController {
         
         Analytics.trackEvent("caculate_retirement_amount")
         
+        
+        // Guard against optional or invalid inputs
+        guard let monthlyInvestments = Double(monthlyInvestmentsTextField.text ?? ""),
+              let currentAge = Double(ageTextField.text ?? ""),
+              let retirementAge = Double(retirementAgeTextField.text ?? ""),
+              let interestRate = Double(interestRateTextField.text ?? ""),
+              let currentSavings = Double(savingsTextField.text ?? "") else {
+            resultLabel.text = "Invalid input. Please enter all values correctly."
+            return
+        }
+
+        let monthsLeft = (retirementAge - currentAge) * 12
+        var totalSavings = currentSavings
+        let monthlyRate = interestRate / (100 * 12)
+
+        // Use compound interest formula: A = P * (1 + r/n)^(nt)
+        for _ in 1...Int(monthsLeft) {
+            totalSavings *= 1 + monthlyRate
+            totalSavings += monthlyInvestments
+        }
+
+        // Display result
+        let formattedSavings = String(format: "%.2f", totalSavings)
+        resultLabel.text = "You'll have $\(formattedSavings) at retirement."
+        
     }
-
-
 }
 
