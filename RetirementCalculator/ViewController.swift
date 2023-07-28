@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     
     
     override func viewDidAppear(_ animated: Bool) {
+        print("how are you")
         if Crashes.hasCrashedInLastSession {
             let alertController = UIAlertController(title: "Error occurred", message: "An error has occured", preferredStyle: .alert)
             let action = UIAlertAction(title: "ok", style: .default)
