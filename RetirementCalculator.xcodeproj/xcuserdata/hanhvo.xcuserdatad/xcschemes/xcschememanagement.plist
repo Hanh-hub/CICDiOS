@@ -3,11 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>RetirementCalculator.xcscheme_^#shared#^_</key>
+		<key>FD32E1A42A66FAE500F85FCE</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD32E1BA2A66FAE800F85FCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD32E1C42A66FAE800F85FCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
