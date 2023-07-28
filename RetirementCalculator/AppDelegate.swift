@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
           Analytics.self,
           Crashes.self
         ])
-        
+       
         // Override point for customization after application launch.
         return true
     }
