@@ -29,7 +29,6 @@ class ViewController: UIViewController {
     
     
     override func viewDidAppear(_ animated: Bool) {
-        print("how are you")
         if Crashes.hasCrashedInLastSession {
             let alertController = UIAlertController(title: "Error occurred", message: "An error has occured", preferredStyle: .alert)
             let action = UIAlertAction(title: "ok", style: .default)
@@ -60,7 +59,6 @@ class ViewController: UIViewController {
         
         Analytics.trackEvent("caculate_retirement_amount")
         
-        
         // Guard against optional or invalid inputs
         guard let monthlyInvestments = Double(monthlyInvestmentsTextField.text ?? ""),
               let currentAge = Double(ageTextField.text ?? ""),
@@ -74,7 +72,9 @@ class ViewController: UIViewController {
         let totalSavings = calculateRetirementAmount(monthlyInvestments: monthlyInvestments, currentAge: currentAge, retirementAge: retirementAge, interestRate: interestRate, currentSavings: currentSavings)
         let formattedSavings = String(format: "%.2f", totalSavings)
         resultLabel.text = "You'll have $\(formattedSavings) at retirement."
-        
+
     }
+
+
 }
 
