@@ -38,6 +38,22 @@ class ViewController: UIViewController {
         }
         Analytics.trackEvent("navigated_to_calculator")
     }
+
+    func calculateRetirementAmount(monthlyInvestments: Double, currentAge: Double, retirementAge: Double, interestRate: Double, currentSavings: Double) -> Double {
+        let monthsLeft = (retirementAge - currentAge) * 12
+        var totalSavings = currentSavings
+        let monthlyRate = interestRate / (100 * 12)
+
+        // Use compound interest formula: A = P * (1 + r/n)^(nt)
+        for _ in 1...Int(monthsLeft) {
+            totalSavings *= 1 + monthlyRate
+            totalSavings += monthlyInvestments
+        }
+
+        return totalSavings
+    }
+
+    
     @IBAction func calculateButton_TouchUpInside(_ sender: Any) {
        // MSCrashes.generateTestCrash()
        // Crashes.generateTestCrash()
@@ -54,18 +70,8 @@ class ViewController: UIViewController {
             resultLabel.text = "Invalid input. Please enter all values correctly."
             return
         }
-
-        let monthsLeft = (retirementAge - currentAge) * 12
-        var totalSavings = currentSavings
-        let monthlyRate = interestRate / (100 * 12)
-
-        // Use compound interest formula: A = P * (1 + r/n)^(nt)
-        for _ in 1...Int(monthsLeft) {
-            totalSavings *= 1 + monthlyRate
-            totalSavings += monthlyInvestments
-        }
-
         // Display result
+        let totalSavings = calculateRetirementAmount(monthlyInvestments: monthlyInvestments, currentAge: currentAge, retirementAge: retirementAge, interestRate: interestRate, currentSavings: currentSavings)
         let formattedSavings = String(format: "%.2f", totalSavings)
         resultLabel.text = "You'll have $\(formattedSavings) at retirement."
         
